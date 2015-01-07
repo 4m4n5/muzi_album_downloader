@@ -3,7 +3,6 @@ __author__ = 'aman'
 import urllib, urllib2
 from bs4 import BeautifulSoup
 import urlparse
-import mechanize
 import requests
 import json
 
@@ -55,3 +54,4 @@ for i in range(0, number_of_songs):
                 else:
                     download_url = base_download_url + artist + '/' + name_of_album + '/' + track_id + sep + track + ext
                     download(download_url, track+'.mp3')
+
