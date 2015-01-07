@@ -1,10 +1,7 @@
 __author__ = 'aman'
 
-import urllib, urllib2
-from bs4 import BeautifulSoup
-import urlparse
+import urllib
 import requests
-import json
 
 # enter album id here
 # (it is displayed after /album/ in the url when you click at the album to expand it)
